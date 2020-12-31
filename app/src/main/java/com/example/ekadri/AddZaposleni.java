@@ -78,6 +78,8 @@ public class AddZaposleni extends AppCompatActivity {
             jsonObject.put("telefon", phone.getText());
             jsonObject.put("datumRojstva", date.getText());
             jsonObject.put("spol", gender.getText());
+            jsonObject.put("photoPath", null);
+            jsonObject.put("kadrovanje", false);
 
             final String mRequest = jsonObject.toString();
             status.setText(mRequest);

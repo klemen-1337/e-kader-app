@@ -10,20 +10,52 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/prikaziZaposlene"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="prikaziZaposlene"
-            android:text="Prikaži zaposlene" />
-
-        <TextView
-            android:id="@+id/zaposleni"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Izpis" />
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="473dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/prikaziZaposlene"
+                    android:layout_width="221dp"
+                    android:layout_height="70dp"
+                    android:onClick="prikaziZaposlene"
+                    android:text="Prikaži zaposlene" />
+
+                <Button
+                    android:id="@+id/addZaposleniActivity"
+                    android:layout_width="201dp"
+                    android:layout_height="70dp"
+                    android:onClick="addZaposleniActivity"
+                    android:text="Dodaj zaposlene" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/zaposleni"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Izpis" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

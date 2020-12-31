@@ -79,4 +79,10 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    public void addZaposleniActivity(View view){
+
+        Intent intent = new Intent(this, AddZaposleni.class);
+        startActivity(intent);
+    }
+
 }
