@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
                 String current = zaposleni.getText().toString();
                 zaposleni.setText(current + "\n\n" + row);
-
+                
             }
 
         }
