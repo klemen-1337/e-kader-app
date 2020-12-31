@@ -22,52 +22,28 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/name"
+            android:id="@+id/oddelek"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Ime" />
+            android:text="Oddelek" />
 
         <EditText
-            android:id="@+id/surname"
+            android:id="@+id/lokacija"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Priimek" />
+            android:text="Lokacija" />
 
         <EditText
-            android:id="@+id/address"
+            android:id="@+id/NazivDelovnegaMesta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Naslov" />
-
-        <EditText
-            android:id="@+id/phone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="numberSigned"
-            android:text="Telefon" />
-
-        <EditText
-            android:id="@+id/date"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Datum Rojstva" />
-
-        <EditText
-            android:id="@+id/gender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Spol" />
+            android:text="NazivDelovnegaMesta" />
 
         <Button
             android:id="@+id/submit"

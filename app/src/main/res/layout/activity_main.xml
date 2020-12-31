@@ -28,23 +28,29 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="473dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/prikaziZaposlene"
-                    android:layout_width="221dp"
-                    android:layout_height="70dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0"
                     android:onClick="prikaziZaposlene"
                     android:text="Prikaži zaposlene" />
 
                 <Button
                     android:id="@+id/addZaposleniActivity"
-                    android:layout_width="201dp"
-                    android:layout_height="70dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0"
                     android:onClick="addZaposleniActivity"
-                    android:text="Dodaj zaposlene" />
+                    android:text="Dodaj delovna mesta" />
 
 
             </LinearLayout>
@@ -53,6 +59,7 @@
                 android:id="@+id/zaposleni"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="5"
                 android:text="Izpis" />
 
         </LinearLayout>
